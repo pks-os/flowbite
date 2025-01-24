@@ -101,7 +101,7 @@ To enable the interactive components you need to also include Flowbite's JavaScr
 In the `Layout.astro` file add the following script tag just before the end of the `<body>` tag:
 
 ```html
-<script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+<script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
 ```
 
 This allows you to use the data attributes from the Flowbite component examples and will make them interactive automatically without needing to write custom JavaScript and you can just copy-paste them from the Flowbite Docs.
@@ -149,9 +149,9 @@ Make sure that you have the necessary HTML markup for the event listeners and el
   <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative w-full max-w-2xl max-h-full">
       <!-- Modal content -->
-      <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+      <div class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700">
         <!-- Modal header -->
-        <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+        <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600 border-gray-200">
           <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
             Terms of Service
           </h3>

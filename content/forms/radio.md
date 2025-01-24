@@ -78,11 +78,11 @@ Get started with this example if you want to add a secondary text to the label f
 Use this example to show a radio input elements inside a card with border.
 
 {{< example id="radio-bordered-example" class="grid gap-6 md:grid-cols-2" github="forms/radio.md" show_dark=true >}}
-<div class="flex items-center ps-4 border border-gray-200 rounded dark:border-gray-700">
+<div class="flex items-center ps-4 border border-gray-200 rounded-sm dark:border-gray-700">
     <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
     <label for="bordered-radio-1" class="w-full py-4 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Default radio</label>
 </div>
-<div class="flex items-center ps-4 border border-gray-200 rounded dark:border-gray-700">
+<div class="flex items-center ps-4 border border-gray-200 rounded-sm dark:border-gray-700">
     <input checked id="bordered-radio-2" type="radio" value="" name="bordered-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
     <label for="bordered-radio-2" class="w-full py-4 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked state</label>
 </div>
@@ -170,10 +170,10 @@ Here's an example of a list group that you can use right away.
   </svg></button>
 
 <!-- Dropdown menu -->
-<div id="dropdownHelperRadio" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-60 dark:bg-gray-700 dark:divide-gray-600" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="top" style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(522.5px, 6119.5px, 0px);">
+<div id="dropdownHelperRadio" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-60 dark:bg-gray-700 dark:divide-gray-600" data-popper-reference-hidden="" data-popper-escaped="" data-popper-placement="top" style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(522.5px, 6119.5px, 0px);">
     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHelperRadioButton">
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
               <input id="helper-radio-4" name="helper-radio" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
@@ -186,7 +186,7 @@ Here's an example of a list group that you can use right away.
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
               <input id="helper-radio-5" name="helper-radio" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
@@ -199,7 +199,7 @@ Here's an example of a list group that you can use right away.
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
               <input id="helper-radio-6" name="helper-radio" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
@@ -249,7 +249,7 @@ Use this example of a more advanced radio component to add more information and 
 <ul class="grid w-full gap-6 md:grid-cols-2">
     <li>
         <input type="radio" id="hosting-small" name="hosting" value="hosting-small" class="hidden peer" required />
-        <label for="hosting-small" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+        <label for="hosting-small" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 dark:peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
             <div class="block">
                 <div class="w-full text-lg font-semibold">0-50 MB</div>
                 <div class="w-full">Good for small websites</div>
@@ -261,7 +261,7 @@ Use this example of a more advanced radio component to add more information and 
     </li>
     <li>
         <input type="radio" id="hosting-big" name="hosting" value="hosting-big" class="hidden peer">
-        <label for="hosting-big" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+        <label for="hosting-big" class="inline-flex items-center justify-between w-full p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 dark:peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
             <div class="block">
                 <div class="w-full text-lg font-semibold">500-1000 MB</div>
                 <div class="w-full">Good for large websites</div>

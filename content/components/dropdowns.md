@@ -29,7 +29,7 @@ The `dropdownId` is the id of the dropdown menu element.
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -60,7 +60,7 @@ There's a 300ms default delay when showing or hiding the dropdown due to UI/UX r
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -89,7 +89,7 @@ You can use the `data-dropdown-delay={milliseconds}` data attribute to set they 
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownDelay" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownDelay" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDelayButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -118,7 +118,7 @@ You can use the `divide-y divide-gray-100` classes to add separate elements insi
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDividerButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -147,7 +147,7 @@ Use this example to show extra information outside of the list of menu items ins
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownInformation" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownInformation" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
       <div>Bonnie Green</div>
       <div class="font-medium truncate">name@flowbite.com</div>
@@ -180,7 +180,7 @@ Use this example to enable multi-level dropdown menus by adding stacked elements
 </button>
 
 <!-- Dropdown menu -->
-<div id="multi-dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="multi-dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="multiLevelDropdownButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -189,7 +189,7 @@ Use this example to enable multi-level dropdown menus by adding stacked elements
         <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg class="w-2.5 h-2.5 ms-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
   </svg></button>
-          <div id="doubleDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+          <div id="doubleDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
               <li>
                 <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Overview</a>
@@ -227,23 +227,23 @@ Add multiple checkbox elements inside your dropdown menu to enable more advanced
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownDefaultCheckbox" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownDefaultCheckbox" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700 dark:divide-gray-600">
     <ul class="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownCheckboxButton">
       <li>
         <div class="flex items-center">
-          <input id="checkbox-item-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <input id="checkbox-item-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           <label for="checkbox-item-1" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Default checkbox</label>
         </div>
       </li>
       <li>
         <div class="flex items-center">
-            <input checked id="checkbox-item-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+            <input checked id="checkbox-item-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
             <label for="checkbox-item-2" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Checked state</label>
           </div>
       </li>
       <li>
         <div class="flex items-center">
-          <input id="checkbox-item-3" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <input id="checkbox-item-3" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           <label for="checkbox-item-3" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Default checkbox</label>
         </div>
       </li>
@@ -262,24 +262,24 @@ Use this example to update the background color of a menu item when using a list
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownBgHover" class="z-10 hidden w-48 bg-white rounded-lg shadow dark:bg-gray-700">
+<div id="dropdownBgHover" class="z-10 hidden w-48 bg-white rounded-lg shadow-sm dark:bg-gray-700">
     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownBgHoverButton">
       <li>
-        <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-4" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-4" class="w-full ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Default checkbox</label>
+        <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-4" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-4" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Default checkbox</label>
         </div>
       </li>
       <li>
-        <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-            <input checked id="checkbox-item-5" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="checkbox-item-5" class="w-full ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Checked state</label>
+        <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+            <input checked id="checkbox-item-5" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+            <label for="checkbox-item-5" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Checked state</label>
           </div>
       </li>
       <li>
-        <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-6" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-6" class="w-full ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Default checkbox</label>
+        <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-6" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-6" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Default checkbox</label>
         </div>
       </li>
     </ul>
@@ -297,12 +297,12 @@ Add an extra helper text to each checkbox element inside the dropdown menu list 
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownHelper" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-60 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownHelper" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-60 dark:bg-gray-700 dark:divide-gray-600">
     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHelperButton">
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
-              <input id="helper-checkbox-1" aria-describedby="helper-checkbox-text-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+              <input id="helper-checkbox-1" aria-describedby="helper-checkbox-text-1" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
           <div class="ms-2 text-sm">
               <label for="helper-checkbox-1" class="font-medium text-gray-900 dark:text-gray-300">
@@ -313,9 +313,9 @@ Add an extra helper text to each checkbox element inside the dropdown menu list 
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
-              <input id="helper-checkbox-2" aria-describedby="helper-checkbox-text-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+              <input id="helper-checkbox-2" aria-describedby="helper-checkbox-text-2" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
           <div class="ms-2 text-sm">
               <label for="helper-checkbox-2" class="font-medium text-gray-900 dark:text-gray-300">
@@ -326,9 +326,9 @@ Add an extra helper text to each checkbox element inside the dropdown menu list 
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
-              <input id="helper-checkbox-3" aria-describedby="helper-checkbox-text-3" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+              <input id="helper-checkbox-3" aria-describedby="helper-checkbox-text-3" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
           <div class="ms-2 text-sm">
               <label for="helper-checkbox-3" class="font-medium text-gray-900 dark:text-gray-300">
@@ -353,7 +353,7 @@ Enable more advanced interaction with your users by adding radio input elements 
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownDefaultRadio" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownDefaultRadio" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700 dark:divide-gray-600">
     <ul class="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownRadioButton">
       <li>
         <div class="flex items-center">
@@ -388,24 +388,24 @@ Use this example to update the background color when hovering over a menu item w
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownRadioBgHover" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownRadioBgHover" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700 dark:divide-gray-600">
     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownRadioBgHoverButton">
       <li>
-        <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
             <input id="default-radio-4" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="default-radio-4" class="w-full ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Default radio</label>
+            <label for="default-radio-4" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Default radio</label>
         </div>
       </li>
       <li>
-        <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
             <input checked id="default-radio-5" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="default-radio-5" class="w-full ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Checked state</label>
+            <label for="default-radio-5" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Checked state</label>
         </div>
       </li>
       <li>
-        <div class="flex items-center p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex items-center p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
             <input id="default-radio-6" type="radio" value="" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="default-radio-6" class="w-full ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Default radio</label>
+            <label for="default-radio-6" class="w-full ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Default radio</label>
         </div>
       </li>
     </ul>
@@ -423,10 +423,10 @@ This example can be used to add an extra helper text inside of each radio elemen
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownRadioHelper" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-60 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownRadioHelper" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-60 dark:bg-gray-700 dark:divide-gray-600">
     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownRadioHelperButton">
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
               <input id="helper-radio-4" name="helper-radio" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
@@ -439,7 +439,7 @@ This example can be used to add an extra helper text inside of each radio elemen
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
               <input id="helper-radio-5" name="helper-radio" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
@@ -452,7 +452,7 @@ This example can be used to add an extra helper text inside of each radio elemen
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <div class="flex items-center h-5">
               <input id="helper-radio-6" name="helper-radio" type="radio" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
           </div>
@@ -479,31 +479,31 @@ Show a list of toggle switch elements inside the dropdown menu to enable a yes o
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownToggle" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-72 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownToggle" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-72 dark:bg-gray-700 dark:divide-gray-600">
     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <label class="inline-flex items-center w-full cursor-pointer">
             <input type="checkbox" value="" class="sr-only peer">
-            <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full rtl:peer-checked:after:translate-x-[-100%] peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
+            <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full rtl:peer-checked:after:translate-x-[-100%] peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600"></div>
             <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Enable notifications</span>
           </label>
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <label class="inline-flex items-center w-full cursor-pointer">
             <input type="checkbox" value="" class="sr-only peer">
-            <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full rtl:peer-checked:after:translate-x-[-100%] peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
+            <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full rtl:peer-checked:after:translate-x-[-100%] peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600"></div>
             <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Enable 2FA authentication</span>
           </label>
         </div>
       </li>
       <li>
-        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex p-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
           <label class="inline-flex items-center w-full cursor-pointer">
             <input type="checkbox" value="" class="sr-only peer">
-            <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full rtl:peer-checked:after:translate-x-[-100%] peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
+            <div class="relative w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full rtl:peer-checked:after:translate-x-[-100%] peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600"></div>
             <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">Subscribe to newsletter</span>
           </label>
         </div>
@@ -524,7 +524,7 @@ This example can be used when you want to show a long list of items that won't a
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownUsers" class="z-10 hidden bg-white rounded-lg shadow w-60 dark:bg-gray-700">
+<div id="dropdownUsers" class="z-10 hidden bg-white rounded-lg shadow-sm w-60 dark:bg-gray-700">
   <ul class="h-48 py-2 overflow-y-auto text-gray-700 dark:text-gray-200" aria-labelledby="dropdownUsersButton">
     <li>
       <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
@@ -595,7 +595,7 @@ Use this example if you want to add a search bar inside the dropdown menu to be 
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownSearch" class="z-10 hidden bg-white rounded-lg shadow w-60 dark:bg-gray-700">
+<div id="dropdownSearch" class="z-10 hidden bg-white rounded-lg shadow-sm w-60 dark:bg-gray-700">
     <div class="p-3">
       <label for="input-group-search" class="sr-only">Search</label>
       <div class="relative">
@@ -609,45 +609,45 @@ Use this example if you want to add a search bar inside the dropdown menu to be 
     </div>
     <ul class="h-48 px-3 pb-3 overflow-y-auto text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownSearchButton">
       <li>
-        <div class="flex items-center ps-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-11" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-11" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Bonnie Green</label>
+        <div class="flex items-center ps-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-11" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-11" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Bonnie Green</label>
         </div>
       </li>
       <li>
-        <div class="flex items-center ps-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-            <input checked id="checkbox-item-12" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-            <label for="checkbox-item-12" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Jese Leos</label>
+        <div class="flex items-center ps-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+            <input checked id="checkbox-item-12" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+            <label for="checkbox-item-12" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Jese Leos</label>
           </div>
       </li>
       <li>
-        <div class="flex items-center ps-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-13" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-13" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Michael Gough</label>
+        <div class="flex items-center ps-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-13" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-13" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Michael Gough</label>
         </div>
       </li>
       <li>
-        <div class="flex items-center ps-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-14" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-14" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Robert Wall</label>
+        <div class="flex items-center ps-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-14" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-14" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Robert Wall</label>
         </div>
       </li>
       <li>
-        <div class="flex items-center ps-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-15" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-15" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Joseph Mcfall</label>
+        <div class="flex items-center ps-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-15" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-15" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Joseph Mcfall</label>
         </div>
       </li>
       <li>
-        <div class="flex items-center ps-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-16" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-16" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Leslie Livingston</label>
+        <div class="flex items-center ps-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-16" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-16" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Leslie Livingston</label>
         </div>
       </li>
             <li>
-        <div class="flex items-center ps-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
-          <input id="checkbox-item-17" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
-          <label for="checkbox-item-17" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded dark:text-gray-300">Roberta Casas</label>
+        <div class="flex items-center ps-2 rounded-sm hover:bg-gray-100 dark:hover:bg-gray-600">
+          <input id="checkbox-item-17" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="checkbox-item-17" class="w-full py-2 ms-2 text-sm font-medium text-gray-900 rounded-sm dark:text-gray-300">Roberta Casas</label>
         </div>
       </li>
     </ul>
@@ -672,7 +672,7 @@ Use the menu icon trigger element on components such as cards as an alternative 
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownDots" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownDots" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownMenuIconButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -696,7 +696,7 @@ Use the menu icon trigger element on components such as cards as an alternative 
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownDotsHorizontal" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownDotsHorizontal" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownMenuIconHorizontalButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -729,13 +729,13 @@ Use this example to show a list of notifications inside your application by prov
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownNotification" class="z-20 hidden w-full max-w-sm bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-800 dark:divide-gray-700" aria-labelledby="dropdownNotificationButton">
+<div id="dropdownNotification" class="z-20 hidden w-full max-w-sm bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-800 dark:divide-gray-700" aria-labelledby="dropdownNotificationButton">
   <div class="block px-4 py-2 font-medium text-center text-gray-700 rounded-t-lg bg-gray-50 dark:bg-gray-800 dark:text-white">
       Notifications
   </div>
   <div class="divide-y divide-gray-100 dark:divide-gray-700">
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-      <div class="flex-shrink-0">
+      <div class="shrink-0">
         <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-1.jpg" alt="Jese image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-blue-600 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
@@ -750,7 +750,7 @@ Use this example to show a list of notifications inside your application by prov
       </div>
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-      <div class="flex-shrink-0">
+      <div class="shrink-0">
         <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-2.jpg" alt="Joseph image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-gray-900 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
@@ -764,7 +764,7 @@ Use this example to show a list of notifications inside your application by prov
       </div>
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-      <div class="flex-shrink-0">
+      <div class="shrink-0">
         <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-red-600 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
@@ -778,7 +778,7 @@ Use this example to show a list of notifications inside your application by prov
       </div>
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-      <div class="flex-shrink-0">
+      <div class="shrink-0">
         <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-4.jpg" alt="Leslie image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-green-400 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
@@ -792,7 +792,7 @@ Use this example to show a list of notifications inside your application by prov
       </div>
     </a>
     <a href="#" class="flex px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700">
-      <div class="flex-shrink-0">
+      <div class="shrink-0">
         <img class="rounded-full w-11 h-11" src="/docs/images/people/profile-picture-5.jpg" alt="Robert image">
         <div class="absolute flex items-center justify-center w-5 h-5 ms-6 -mt-5 bg-purple-500 border border-white rounded-full dark:border-gray-800">
           <svg class="w-2 h-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 14">
@@ -828,7 +828,7 @@ This example can be used to show a list of menu items and options when a user is
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownAvatar" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownAvatar" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
       <div>Bonnie Green</div>
       <div class="font-medium truncate">name@flowbite.com</div>
@@ -865,7 +865,7 @@ Bonnie Green
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownAvatarName" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownAvatarName" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
       <div class="font-medium ">Pro User</div>
       <div class="truncate">name@flowbite.com</div>
@@ -908,14 +908,14 @@ You can also use the dropdown element inside a navigation bar and add a second l
     <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
       <ul class="flex flex-col font-medium p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:text-sm  md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 md:space-x-8 md:rtl:space-x-reverse">
         <li>
-          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
+          <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
         </li>
         <li>
-            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-700 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Dropdown <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
   </svg></button>
             <!-- Dropdown menu -->
-            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+            <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
                 <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                   <li>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -933,13 +933,13 @@ You can also use the dropdown element inside a navigation bar and add a second l
             </div>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          <a href="#" class="block py-2 px-3 text-gray-700 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+          <a href="#" class="block py-2 px-3 text-gray-700 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <a href="#" class="block py-2 px-3 text-gray-700 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
         </li>
       </ul>
     </div>
@@ -957,7 +957,7 @@ Use this example to show a date range picker inside a dropdown menu. Use the `da
 </svg>
 </button>
 
-<div id="dateRangeDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-80 lg:w-96 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dateRangeDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-80 lg:w-96 dark:bg-gray-700 dark:divide-gray-600">
     <div class="p-3" aria-labelledby="dateRangeButton">
       <div date-rangepicker datepicker-autohide class="flex items-center">
           <div class="relative">
@@ -993,7 +993,7 @@ The dropdown menus work with buttons of all sizes including smaller or larger on
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownSmall" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownSmall" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
       <div>Bonnie Green</div>
       <div class="font-medium truncate">name@flowbite.com</div>
@@ -1020,7 +1020,7 @@ The dropdown menus work with buttons of all sizes including smaller or larger on
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownLarge" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+<div id="dropdownLarge" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
     <div class="px-4 py-3 text-sm text-gray-900 dark:text-white">
       <div>Bonnie Green</div>
       <div class="font-medium truncate">name@flowbite.com</div>
@@ -1053,7 +1053,7 @@ You can also use the `data-dropdown-placement={top|right|bottom|left}` data attr
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownTop" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownTop" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownTopButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1076,7 +1076,7 @@ You can also use the `data-dropdown-placement={top|right|bottom|left}` data attr
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownRight" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownRight" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownRightButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1099,7 +1099,7 @@ You can also use the `data-dropdown-placement={top|right|bottom|left}` data attr
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownBottom" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownBottom" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownBottomButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1121,7 +1121,7 @@ You can also use the `data-dropdown-placement={top|right|bottom|left}` data attr
 </svg>Dropdown left</button>
 
 <!-- Dropdown menu -->
-<div id="dropdownLeft" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownLeft" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLeftButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1150,7 +1150,7 @@ You can combine the placement options by using the `top|right|bottom|left-{start
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownLeftEnd" class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownLeftEnd" class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLeftEndButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1173,7 +1173,7 @@ You can combine the placement options by using the `top|right|bottom|left-{start
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownRightEnd" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownRightEnd" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownRightEndButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1206,7 +1206,7 @@ Use the `data-dropdown-offset-distance={pixels}` data attribute to set the numbe
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownDistance" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownDistance" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1235,7 +1235,7 @@ The `data-dropdown-offset-skidding={pixels}` data attribute can be used to move 
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownSkidding" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownSkidding" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefault">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
@@ -1284,7 +1284,7 @@ Initialize a Dropdown object with the object parameters such as the main target 
           </tr>
       </thead>
       <tbody>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">targetElement</code>
               </td>
@@ -1298,7 +1298,7 @@ Initialize a Dropdown object with the object parameters such as the main target 
                   Apply the main dropdown menu element as the first parameter of the Dropdown object.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">triggerElement</code>
               </td>
@@ -1312,7 +1312,7 @@ Initialize a Dropdown object with the object parameters such as the main target 
                   Apply the trigger element, such as a button, which is required to position the dropdown menu and set a click event.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">options</code>
               </td>
@@ -1326,7 +1326,7 @@ Initialize a Dropdown object with the object parameters such as the main target 
                   Use the options parameter to set the positioning of the dropdown menu.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
                 <td class="px-6 py-4 font-medium">
                     <code class="text-blue-600 dark:text-blue-400">instanceOptions</code>
                 </td>
@@ -1364,7 +1364,7 @@ Use the following options as the third parameter for the Dropdown class to set t
           </tr>
       </thead>
       <tbody>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">placement</code>
               </td>
@@ -1375,7 +1375,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set the position of the dropdown menu relative to the trigger element choosing from <code class="text-purple-600 dark:text-purple-400">top|right|bottom|left</code>.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">triggerType</code>
               </td>
@@ -1386,7 +1386,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set the event type that will trigger the dropdown menu choosing between <code class="text-purple-600 dark:text-purple-400">hover|click|none</code>.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">offsetDistance</code>
               </td>
@@ -1397,7 +1397,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set the amount of pixels the dropdown menu should be offset relative to the trigger element on the X horizontal axis.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">offsetSkidding</code>
               </td>
@@ -1408,7 +1408,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set the number of pixels the dropdown menu should be offset relative to the trigger element on the Y horizontal axis.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">delay</code>
               </td>
@@ -1419,7 +1419,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set the milliseconds for which the showing or hiding of the dropdown will be delayed for when using the hover trigger type.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">ignoreClickOutsideClass</code>
               </td>
@@ -1430,7 +1430,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set a class for one or more elements that when they are clicked should ignore closing the dropdown (ie. offcanvas datepicker).
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">onHide</code>
               </td>
@@ -1441,7 +1441,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set a callback function when the dropdown has been hidden.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">onShow</code>
               </td>
@@ -1452,7 +1452,7 @@ Use the following options as the third parameter for the Dropdown class to set t
                   Set a callback function when the dropdown has been shown.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">onToggle</code>
               </td>
@@ -1484,7 +1484,7 @@ Use the methods from the Dropdown object to programmatically show or hide the dr
           </tr>
       </thead>
       <tbody>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">show()</code>
               </td>
@@ -1492,7 +1492,7 @@ Use the methods from the Dropdown object to programmatically show or hide the dr
                   Use this method on the Dropdown object to show the dropdown menu.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">hide()</code>
               </td>
@@ -1500,7 +1500,7 @@ Use the methods from the Dropdown object to programmatically show or hide the dr
                   Use this method on the Dropdown object to hide the dropdown menu.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">toggle()</code>
               </td>
@@ -1508,7 +1508,7 @@ Use the methods from the Dropdown object to programmatically show or hide the dr
                   Use this method on the Dropdown object to toggle the visibility of the dropdown menu.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">isVisible()</code>
               </td>
@@ -1516,7 +1516,7 @@ Use the methods from the Dropdown object to programmatically show or hide the dr
                   Returns true or false based on the visibility of the dropdown.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">updateOnShow(callback)</code>
               </td>
@@ -1524,7 +1524,7 @@ Use the methods from the Dropdown object to programmatically show or hide the dr
                   Use this method to set a callback function when the dropdown has been shown.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">updateOnHide(callback)</code>
               </td>
@@ -1532,7 +1532,7 @@ Use the methods from the Dropdown object to programmatically show or hide the dr
                   Use this method to set a callback function when the dropdown has been hidden.
               </td>
           </tr>
-          <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+          <tr class="border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200">
               <td class="px-6 py-4 font-medium">
                   <code class="text-blue-600 dark:text-blue-400">updateOnToggle(callback)</code>
               </td>
@@ -1626,7 +1626,7 @@ Use the following HTML code for the JavaScript example above.
 </button>
 
 <!-- Dropdown menu -->
-<div id="dropdownMenu" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+<div id="dropdownMenu" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700">
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownButton">
       <li>
         <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>

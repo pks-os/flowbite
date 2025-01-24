@@ -49,7 +49,7 @@ Flowbite can be included as a plugin into an existing Tailwind CSS project and i
 
 ### Install using NPM
 
-Make sure that you have <a href="https://nodejs.org/en/" rel="nofollow" >Node.js</a> and <a href="https://tailwindcss.com/" rel="nofollow" >Tailwind CSS</a> installed. 
+Make sure that you have <a href="https://nodejs.org/en/" rel="nofollow" target="_blank">Node.js</a> and <a href="https://tailwindcss.com/docs/installation/using-postcss" rel="nofollow" target="_blank">Tailwind CSS</a> installed. This guide works with Tailwind v4.
 
 1. Install Flowbite as a dependency using NPM by running the following command:
 
@@ -57,51 +57,45 @@ Make sure that you have <a href="https://nodejs.org/en/" rel="nofollow" >Node.js
 npm install flowbite
 ```
 
-2. Require Flowbite as a plugin inside the `tailwind.config.js` file:
+2. Import Flowbite as a plugin inside your main Tailwind CSS file:
 
 ```javascript
-module.exports = {
-
-    plugins: [
-        require('flowbite/plugin')
-    ]
-
-}
+@plugin "flowbite/plugin";
 ```
 
-3. Make sure that you add the template path to the `tailwind.config.js` file:
+3. Make sure that you add the Flowbite JS source files to your CSS file:
 
-```javascript
-module.exports = {
-
-    content: [
-        "./node_modules/flowbite/**/*.js"
-    ]
-
-}
+```bash
+@source "../node_modules/flowbite";
 ```
 
-4. Include the main JavaScript file to make interactive elements work:
+4. Include the JavaScript code that powers the interactive elements before the end of your `<body>` tag:
 
 ```html
-<script src="../path/to/flowbite/dist/flowbite.js"></script>
+<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 ```
 
-### Include via CDN
+Learn more about the Flowbite JavaScript API and functionalities in the [JavaScript section](https://flowbite.com/docs/getting-started/javascript/).
 
-The quickest way to get started working with Flowbite is to simply include the CSS and JavaScript into your project via a CDN service such as UNPKG or CDNJS (content delivery networks).
+If you have and old project with Tailwind CSS v3 then [check out this guide](#tailwind-css-v3-to-v4) to learn how to upgrade to v4.
+
+### Include using CDN
+
+The quickest way to get started working with FlowBite is to simply include the CSS and JavaScript into your project via CDN.
 
 Require the following minified stylesheet inside the `head` tag:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/flowbite@{{< current_version >}}/dist/flowbite.min.css" rel="stylesheet" />
 ```
 
-And include the following javascript file before the end of the `body` tag:
+And include the following JavaScript file before the end of the `body` element:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@{{< current_version >}}/dist/flowbite.min.js"></script>
 ```
+
+Please remember that the best way to work with Tailwind CSS and Flowbite is by purging the CSS classes.
 
 ### Bundled JavaScript
 
@@ -130,9 +124,9 @@ For example, to set up a modal component all you need to do is use `data-modal-t
 <div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative w-full max-w-2xl max-h-full">
         <!-- Modal content -->
-        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative bg-white rounded-lg shadow-sm dark:bg-gray-700">
             <!-- Modal header -->
-            <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+            <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600 border-gray-200">
                 <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
                     Terms of Service
                 </h3>

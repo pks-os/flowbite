@@ -103,7 +103,7 @@ Use this example to show a CTA button in the center of the navigation component 
             </svg>
             <span class="sr-only">Home</span>
         </button>
-        <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Home
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -114,7 +114,7 @@ Use this example to show a CTA button in the center of the navigation component 
             </svg>
             <span class="sr-only">Wallet</span>
         </button>
-        <div id="tooltip-wallet" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-wallet" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Wallet
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -126,7 +126,7 @@ Use this example to show a CTA button in the center of the navigation component 
                 <span class="sr-only">New item</span>
             </button>
         </div>
-        <div id="tooltip-new" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-new" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Create new item
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -136,7 +136,7 @@ Use this example to show a CTA button in the center of the navigation component 
             </svg>
             <span class="sr-only">Settings</span>
         </button>
-        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Settings
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -146,7 +146,7 @@ Use this example to show a CTA button in the center of the navigation component 
             </svg>
             <span class="sr-only">Profile</span>
         </button>
-        <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Profile
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -169,7 +169,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">New document</span>
         </button>
-        <div id="tooltip-document" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-document" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             New document
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -179,7 +179,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">Bookmark</span>
         </button>
-        <div id="tooltip-bookmark" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-bookmark" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Bookmark
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -191,7 +191,7 @@ This example be used to paginate multiple pages on a single view alongside other
                     </svg>
                     <span class="sr-only">Previous page</span>
                 </button>
-                <span class="flex-shrink-0 mx-1 text-sm font-medium space-x-0.5 rtl:space-x-reverse">1 of 345</span>
+                <span class="shrink-0 mx-1 text-sm font-medium space-x-0.5 rtl:space-x-reverse">1 of 345</span>
                 <button type="button" class="inline-flex items-center justify-center h-8 px-1 w-6 bg-gray-100 rounded-e-lg dark:bg-gray-600 hover:bg-gray-200 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-800">
                     <svg class="w-2 h-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
@@ -206,7 +206,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">Settings</span>
         </button>
-        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Settings
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -216,7 +216,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">Profile</span>
         </button>
-        <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Profile
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -249,7 +249,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">Home</span>
         </button>
-        <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Home
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -259,7 +259,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">Bookmark</span>
         </button>
-        <div id="tooltip-bookmark" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-bookmark" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Bookmark
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -269,7 +269,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">New post</span>
         </button>
-        <div id="tooltip-post" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-post" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             New post
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -279,7 +279,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">Search</span>
         </button>
-        <div id="tooltip-search" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-search" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Search
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -289,7 +289,7 @@ This example be used to paginate multiple pages on a single view alongside other
             </svg>
             <span class="sr-only">Settings</span>
         </button>
-        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Settings
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -307,7 +307,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
 
 <div class="relative w-full max-w-sm overflow-y-scroll bg-white border border-gray-100 rounded-lg dark:bg-gray-700 dark:border-gray-600 h-96">
     <ul>
-        <li class="border-b border:gray-100 dark:border-gray-600">
+        <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
                 <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-1.jpg" alt="Jese Leos Avatar">
                 <div>
@@ -316,7 +316,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
                 </div>
             </a>
         </li>
-        <li class="border-b border:gray-100 dark:border-gray-600">
+        <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
                 <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-2.jpg" alt="Joseph McFall Avatar">
                 <div>
@@ -325,7 +325,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
                 </div>
             </a>
         </li>
-        <li class="border-b border:gray-100 dark:border-gray-600">
+        <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
                 <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-3.jpg" alt="Bonnie Green Avatar">
                 <div>
@@ -334,7 +334,7 @@ You can even use the other bottom navbar examples to exchange the default one pr
                 </div>
             </a>
         </li>
-        <li class="border-b border:gray-100 dark:border-gray-600">
+        <li class="border-b border-gray-100 dark:border-gray-600">
             <a href="#" class="flex items-center justify-center w-full px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-800">
                 <img class="me-3 rounded-full w-11 h-11" src="/docs/images/people/profile-picture-4.jpg" alt="Leslie Livingston Avatar">
                 <div>
@@ -400,7 +400,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Mute microphone</span>
         </button>
-        <div id="tooltip-microphone" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-microphone" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Mute microphone
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -410,7 +410,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Hide camera</span>
         </button>
-        <div id="tooltip-camera" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-camera" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Hide camera
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -420,7 +420,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Share feedback</span>
         </button>
-        <div id="tooltip-feedback" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-feedback" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Share feedback
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -430,7 +430,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Video settings</span>
         </button>
-        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Video settings
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -440,7 +440,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Show options</span>
         </button>
-        <div id="moreOptionsDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+        <div id="moreOptionsDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="moreOptionsDropdownButton">
                 <li>
                     <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Show participants</a>
@@ -461,7 +461,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Show participants</span>
         </button>
-        <div id="tooltip-participants" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-participants" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Show participants
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -471,7 +471,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Adjust volume</span>
         </button>
-        <div id="tooltip-volume" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-volume" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Adjust volume
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -481,7 +481,7 @@ Use this component to show a list of options for online video meetings by showin
             </svg>
             <span class="sr-only">Show information</span>
         </button>
-        <div id="tooltip-information" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-information" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Show information
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -497,7 +497,7 @@ Use this component to show control buttons for a video or audio that is playing 
 
 <div class="fixed bottom-0 left-0 z-50 grid w-full h-24 grid-cols-1 px-8 bg-white border-t border-gray-200 md:grid-cols-3 dark:bg-gray-700 dark:border-gray-600">
     <div class="items-center justify-center hidden me-auto md:flex">
-        <img class="h-8 me-3 rounded" src="/docs/images/misc/flowbite-yt-screenshot.png" alt="Video preview">
+        <img class="h-8 me-3 rounded-sm" src="/docs/images/misc/flowbite-yt-screenshot.png" alt="Video preview">
         <span class="text-sm text-gray-500 dark:text-gray-400">Flowbite Crash Course</span>
     </div>
     <div class="flex items-center w-full">
@@ -509,7 +509,7 @@ Use this component to show control buttons for a video or audio that is playing 
                     </svg>
                     <span class="sr-only">Shuffle video</span>
                 </button>
-                <div id="tooltip-shuffle" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                <div id="tooltip-shuffle" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
                     Shuffle video
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
@@ -519,7 +519,7 @@ Use this component to show control buttons for a video or audio that is playing 
                     </svg>
                     <span class="sr-only">Previous video</span>
                 </button>
-                <div id="tooltip-previous" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                <div id="tooltip-previous" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
                     Previous video
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
@@ -529,7 +529,7 @@ Use this component to show control buttons for a video or audio that is playing 
                     </svg>
                     <span class="sr-only">Pause video</span>
                 </button>
-                <div id="tooltip-pause" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                <div id="tooltip-pause" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
                     Pause video
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
@@ -539,7 +539,7 @@ Use this component to show control buttons for a video or audio that is playing 
                     </svg>
                     <span class="sr-only">Next video</span>
                 </button>
-                <div id="tooltip-next" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                <div id="tooltip-next" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
                     Next video
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
@@ -549,7 +549,7 @@ Use this component to show control buttons for a video or audio that is playing 
                     </svg>
                     <span class="sr-only">Restart video</span>
                 </button>
-                <div id="tooltip-restart" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                <div id="tooltip-restart" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
                     Restart video
                     <div class="tooltip-arrow" data-popper-arrow></div>
                 </div>
@@ -571,7 +571,7 @@ Use this component to show control buttons for a video or audio that is playing 
             </svg>
             <span class="sr-only">View playlist</span>
         </button>
-        <div id="tooltip-playlist" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-playlist" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             View playlist
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -581,7 +581,7 @@ Use this component to show control buttons for a video or audio that is playing 
             </svg>
             <span class="sr-only">Captions</span>
         </button>
-        <div id="tooltip-captions" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-captions" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Toggle captions
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -591,7 +591,7 @@ Use this component to show control buttons for a video or audio that is playing 
             </svg>
             <span class="sr-only">Expand</span>
         </button>
-        <div id="tooltip-expand" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-expand" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Full screen
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
@@ -601,7 +601,7 @@ Use this component to show control buttons for a video or audio that is playing 
             </svg>
             <span class="sr-only">Adjust volume</span>
         </button>
-        <div id="tooltip-volume" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        <div id="tooltip-volume" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-xs opacity-0 tooltip dark:bg-gray-700">
             Adjust volume
             <div class="tooltip-arrow" data-popper-arrow></div>
         </div>
